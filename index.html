@@ -1,0 +1,153 @@
+<!-- 
+Images across this website were sourced from Pexels (https://www.pexels.com) 
+and Pixabay (https://pixabay.com) under their free-to-use licenses. 
+All images were renamed for organizational purposes.
+
+Navigation & layout structure guided by AI (ChatGPT-GPT-5). 
+Additional styling ideas adapted from class exercises. -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bright Foundation - Homepage</title>
+  <link rel = "stylesheet" href="style.css">
+</head>
+
+
+<body class = "home">
+  <!--header-->
+  <header>
+  <table width="100%" cellspacing="0" cellpadding="10">
+    <tr>
+      <!-- Logo -->
+      <td width="15%">
+        <img src="images/logo.png" alt="Bright Foundation logo" width="100" height="100">
+      </td>
+
+      <!-- Org Name & Slogan -->
+      <td width="45%">
+        <h1>Bright Foundation</h1>
+        <h3>Lighting the path to brighter futures</h3>
+      </td>
+
+      <!-- Navigation Menu -->
+      <td align ="center">
+        <nav class="navbar">
+          <input type="checkbox" id="menu-toggle">
+          <label for="menu-toggle" class="menu-icon">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </label>
+
+          <!--navigation list -->
+          <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products_services.html">Products & Services</a></li>
+            <li><a href="enquiry.html">Enquiry</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </td>
+
+    </tr>
+  </table>
+</header>
+
+  <!-- Hero Section -->
+<section class="hero">
+  <div class="hero-text">
+    <p>Join us in making a difference!</p>
+    <button class="decorative-button" onclick="window.location.href='enquiry.html'">Get Involved</button>
+  </div>
+</section>
+
+  <!-- Main Content -->
+  <main>
+    <section>
+      <p>Welcome to the Bright Foundation Website! As Brigth Foundation, we are dedicated to empowering young learners to reach their full potential and achieve greater academic and personal heights.  Together we can build brighter futures for learners in need and communities. We can inspire growth, fuel ambition and shape a brigther future.</p>
+    </section>
+  </main>
+
+<!-- 3 Boxes Section -->
+<section class="content">
+  <div class="box">
+    <img src="images/scholarship.jpg" alt="Students learning in a classroom">
+    <h3>Tutoring & Academic Support</h3>
+    <p>We provide after-school tutoring and resources to help learners reach their full potential.</p>
+  </div>
+
+  <div class="box">
+    <img src="images/box2.jpg" alt="Volunteers helping in a community program">
+    <h3>Community Programs</h3>
+    <p>Our outreach initiatives empower communities through workshops, mentorship, and shared resources.</p>
+  </div>
+
+  <div class="box">
+    <img src="images/box3.jpg" alt="Happy graduate holding certificate">
+    <h3>Scholarships & Bursaries</h3>
+    <p>We create opportunities for learners through scholarships and funding for further education.</p>
+  </div>
+</section>
+
+<!-- Our Sponsors Section -->
+<!-- 
+  Images and logos used for project purposes only. 
+  All rights belong to their respective organisations/owners. 
+-->
+<section class="sponsors">
+  <h2>Our Sponsors</h2>
+  <p>We are grateful to work alongside organizations that share our vision of building brighter futures.</p>
+  
+  <div class="sponsors-logos">
+    <img src="images/NelsonMandelaFoundation.webp" alt="Sponsor1">
+    <img src="images/gift.webp" alt="Sponsor2">
+    <img src="images/mtn.webp" alt="Sponsor3">
+    <img src="images/ikamva.webp" alt="Sponsor3">
+  </div>
+</section>
+
+<!--footer section-->
+ <footer role="contentinfo">
+    <div class="container footer-inner">
+      <div>
+        <strong>Bright Foundation</strong>
+        <p>Lighting the path to brighter futures.</p>
+      </div>
+
+
+      <div>
+        <strong>Quick Links</strong>
+        <ul>
+          <li><a href="products_services.html">Resources</a></li>
+        </ul>
+      </div>
+
+
+      <div>
+        <strong>Contact</strong>
+        <p>Email: <a href="mailto:info@brightfoundation.org.za">info@brightfoundation.org.za</a></p>
+         Phone: +27 (0)12 345 6789<br>
+      </div>
+
+      <!--newsletter-->
+      <div class="footer-content">
+        <strong>Sign up to our Newsletter</strong><br><br>
+        <form action="#" method="post">
+          <input id="name" type="text" required placeholder="Name" />
+          <input id="email" type="email" required placeholder="Your email"/>
+          <button class="btn" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+  <!-- Center Footer Section -->
+  <div class="footer-center">
+    <span>© <span id="year">2025</span> Bright Foundation. All rights reserved.</span>
+  </div>
+</footer>
+</body>
+</html>
+

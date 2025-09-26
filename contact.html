@@ -1,0 +1,157 @@
+<!-- 
+  Social media icons & link format referenced from W3Schools Font Awesome tutorial:
+  https://www.w3schools.com/icons/fontawesome_icons_brand.asp
+  responsive adjustments guided by AI (ChatGPT-GPT-5) 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact Us - Bright Foundation </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel = "stylesheet" href="style.css">
+</head>
+
+<body class="contact">
+  <!--header-->
+  <header>
+    <table width="100%" cellspacing="0" cellpadding="10">
+      <tr>
+        <!-- Logo -->
+        <td width="15%">
+          <img src="images/logo.png" alt="Bright Foundation logo" width="100" height="100">
+        </td>
+
+        <!-- Org Name & Slogan -->
+        <td width="45%">
+          <h1>Bright Foundation</h1>
+          <h3>Lighting the path to brighter futures</h3>
+        </td>
+
+      <!-- Navigation Menu -->
+<td align ="center">
+  <nav class="navbar">
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </label>
+
+    <!--navigation links-->
+    <ul class="nav-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="products_services.html">Products & Services</a></li>
+      <li><a href="enquiry.html">Enquiry</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+</td>
+
+      </tr>
+    </table>
+  </header>
+
+    <main>
+      <!--page intro-->
+      <section>
+        <h1>Contact Us</h1>
+        <p>We would love to hear from you!Please reach out to us for inquiries, support, or to get involved with the Brigth Foundation.</p>
+      </section>
+
+      <!-- contact form-->
+      <section>
+       <h2>Send Us a Message</h2>
+       <p>We'd love to hear from you! Fill in the form below or visit us at one of our locations.</p>
+        <form action="#" method="post" aria-label="Contact form">
+            
+              <label for = "name">Name:</label>
+              <input type="text" id = "name" name="name" required >
+            
+              <label for ="email">Email:</label>
+              <input type="email" id = "email"  name =  "email" required >
+
+              <label for ="subject">Subject:</label>
+              <input type="text" id = "subject"  name =  "subject" required >
+
+              <label for = "message">Message:</label>
+              <textarea name="message" rows="4" required ></textarea>
+           
+            <button  type="submit">Send Message</button>
+        </form>
+        </section>
+
+        <section class="contact-container">
+          <!--left side-->
+          <div class="contact-left">
+        <address>
+          Email: <a href="mailto:info@brightfoundation.org.za">info@brightfoundation.org.za</a><br>
+          Phone: +27 (0)12 345 6789<br>
+          Socials: 
+          <a href="#"><i class="fab fa-instagram"></i> </a> ·
+          <a href="#"><i class="fab fa-facebook"></i> </a> · 
+          <a href="#"><i class="fab fa-x-twitter"></i> </a> ·
+          <a href="#"><i class="fab fa-youtube"></i> </a><br>
+          Locations: <a href="#">Nelspruit</a> · <a href="#">Cape Town</a>
+        </address>
+          </div>
+
+            <div class="contact-center">
+            <div class="map-container">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.67446262283!2d30.97431507415066!3d-25.515901277507105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ee84b78675cd21b%3A0xb64a3f5facd335e1!2sCurro%20Nelspruit!5e0!3m2!1sen!2sza!4v1756246438667!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            </div>
+
+            <div class="contact-right">
+              <div class="map-container">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.4524266858425!2d18.47245229999999!3d-33.95520909999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5d20de852139%3A0x4af1d159343b5d63!2s7%20Hope%20Rd%2C%20Rosebank%2C%20Cape%20Town%2C%207700!5e0!3m2!1sen!2sza!4v1756246573901!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          </section>
+    </main>
+
+    <!--footer-->
+  <footer role="contentinfo">
+    <div class="container footer-inner">
+      <div>
+        <strong>Bright Foundation</strong>
+        <p>Lighting the path to brighter futures.</p>
+      </div>
+
+      <div>
+        <strong>Quick Links</strong>
+        <ul>
+          <li><a href="products_services.html">Resources</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <strong>Contact</strong>
+        <p> Email: <a href="mailto:info@brightfoundation.org.za">info@brightfoundation.org.za</a></p>
+        Phone: +27 (0)12 345 6789<br>
+      </div>
+
+      <!--newsletter-->
+      <div>
+        <strong>Sign up to our Newsletter</strong><br><br>
+        <form action="#" method="post">
+          <input id="name" type="text" required placeholder="Name" />
+          <input id="email" type="email" required placeholder="Your email" />
+          <button class="btn" type="submit">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+<!-- Center Footer Section -->
+  <div class="footer-center">
+    <span>© <span id="year">2025</span> Bright Foundation. All rights reserved.</span>
+  </div>
+  </footer>
+</body>
+</html>
+

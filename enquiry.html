@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry - Bright Foundation </title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+
+<body class="enquiry">
+  <!--Header-->
+  <header>
+  <table width="100%" cellspacing="0" cellpadding="10">
+    <tr>
+      <!-- Logo -->
+      <td width="15%">
+        <img src="images/logo.png" alt="Bright Foundation logo" width="100" height="100">
+      </td>
+
+      <!-- Org Name & Slogan -->
+      <td width="45%">
+        <h1>Bright Foundation</h1>
+        <h3>Lighting the path to brighter futures</h3>
+      </td>
+
+      <!-- Navigation Menu -->
+      <td align="center">
+        <nav class="navbar">
+          <input type="checkbox" id="menu-toggle">
+          <label for="menu-toggle" class="menu-icon">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </label>
+
+          <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products_services.html">Products & Services</a></li>
+            <li><a href="enquiry.html">Enquiry</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </td>
+    </tr>
+  </table>
+</header>
+
+
+    <main>
+      <!--Page introduction-->
+      <section class="page-intro">
+            <h1 >Getting Involved</h1>
+            <p>
+              Join us in  empowering  learners  to reach their highest potential and transform communities. There are many ways you can be a part of  the Bright Foundation community. Together we  can shape a brighter future!
+            </p>
+        <p>Ways to help: donation, sponsor a learner, volunteer, or partner with us. Pick a way to help below. </p>
+</section>
+
+<section>
+   <!-- Flex container for the 2 forms -->
+<div class="enquiry-forms">
+  <!-- Just Get Involved Form -->
+  <div class="form-box">
+    <h3>Just Get Involved</h3>
+    <p>Not sure where to start? Tell us how you’d like to help and we’ll guide you.</p>
+    <form action="mailto:info@brightfoundation.org" method="post" enctype="text/plain">
+      <input type="hidden" name="Form" value="General Get Involved">
+      <label for="gen-name">Full Name:</label>
+      <input id="gen-name" name="Name" type="text" required>
+      <label for="gen-email">Email:</label>
+      <input id="gen-email" name="Email" type="email" required>
+      <label for="gen-message">How would you like to get involved?</label>
+      <textarea id="gen-message" name="Message" rows="4" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+
+  <!-- Volunteer Form -->
+  <div class="form-box">
+    <h3>Volunteer</h3>
+    <p>Share your time and skills through mentoring, tutoring, workshops, or events.</p>
+    <form action="mailto:info@brightfoundation.org" method="post" enctype="text/plain">
+      <input type="hidden" name="Form" value="Volunteer Application">
+      <label for="vol-name">Full Name:</label>
+      <input id="vol-name" name="Name" type="text" required>
+      <label for="vol-email">Email:</label>
+      <input id="vol-email" name="Email" type="email" required>
+      <label for="vol-phone">Phone (optional):</label>
+      <input id="vol-phone" name="Phone" type="text">
+      <label>Areas of Interest:</label>
+      <input type="checkbox" id="mentoring" name="Interests" value="Mentoring">
+      <label for="mentoring">Mentoring</label>
+      <input type="checkbox" id="tutoring" name="Interests" value="Tutoring">
+      <label for="tutoring">Tutoring</label>
+      <input type="checkbox" id="workshops" name="Interests" value="Workshops">
+      <label for="workshops">Workshops</label>
+      <input type="checkbox" id="events" name="Interests" value="Events">
+      <label for="events">Events</label>
+      <input type="checkbox" id="admin" name="Interests" value="Admin">
+      <label for="admin">Admin</label>
+      <label for="availability">Availability:</label>
+      <select id="availability" name="Availability">
+        <option>Weekdays</option>
+        <option>Weekends</option>
+        <option>Evenings</option>
+        <option>Flexible</option>
+      </select>
+      <label for="vol-message">Tell us about your skills/experience</label>
+      <textarea id="vol-message" name="Message" rows="4" required></textarea>
+      <button type="submit">Apply to Volunteer</button>
+    </form>
+  </div>
+</div>
+</section>
+
+
+<section>
+<!-- Flex container for Partners & Make a donation forms -->
+<div class="enquiry-forms">
+    <!-- Partners & Collaboration Form -->
+  <div class="form-box">
+    <h2>Partners & Collaboration</h2>
+    <p>We collaborate with schools, companies, and organizations to expand opportunities for learners.</p>
+    <form action="mailto:partnerships@brightfoundation.org" method="post" enctype="text/plain">
+      <input type="hidden" name="Form" value="Partnership Enquiry">
+      <label for="org-name">Organization:</label>
+      <input id="org-name" name="Organization" type="text" required>
+      <label for="contact-person">Contact Person:</label>
+      <input id="contact-person" name="Contact Person" type="text" required>
+      <label for="partner-email">Email:</label>
+      <input id="partner-email" name="Email" type="email" required>
+      <label for="partner-phone">Phone (optional):</label>
+      <input id="partner-phone" name="Phone" type="text">
+      <label for="collab-area">Collaboration Area:</label>
+      <select id="collab-area" name="Collaboration Area">
+        <option>Sponsorship</option>
+        <option>Internships / Learnerships</option>
+        <option>Equipment / Devices</option>
+        <option>Grants / Funding</option>
+        <option>Workshops / Speakers</option>
+        <option>Other</option>
+      </select>
+      <label for="partner-message">Message</label>
+      <textarea id="partner-message" name="Message" rows="4" required></textarea>
+      <button type="submit">Send Partnership Enquiry</button>
+    </form>
+  </div>
+ 
+  <!-- Donation Form -->
+  <div class="form-box">
+    <h3>Make a Donation</h3>
+    <p>Your contributions help us provide essential resources and support to our learners.</p>
+    <form action="mailto:info@brightfoundation.org" method="post" enctype="text/plain">
+      <input type="hidden" name="Form" value="Donation Enquiry">
+      <label for="donor-name">Full Name:</label>
+      <input id="donor-name" name="Name" type="text" required>
+      <label for="donor-email">Email:</label>
+      <input id="donor-email" name="Email" type="email" required>
+      <label for="amount">Amount (choose or type):</label>
+      <select id="amount" name="Amount (preset)">
+        <option value="R100">R100</option>
+        <option value="R250">R250</option>
+        <option value="R500">R500</option>
+        <option value="R1000">R1000</option>
+      </select>
+      <label for="amount-other">Other Amount</label>
+      <input id="amount-other" name="Amount (other)" type="text" placeholder="e.g., R150">
+      <label>Frequency:</label>
+      <input type="radio" id="once" name="Frequency" value="Once" checked>
+      <label for="once">Once</label>
+      <input type="radio" id="monthly" name="Frequency" value="Monthly">
+      <label for="monthly">Monthly</label>
+      <input type="radio" id="yearly" name="Frequency" value="Yearly">
+      <label for="yearly">Yearly</label>
+      <label for="method">Preferred Method:</label>
+      <select id="method" name="Payment Method">
+        <option value="EFT">EFT</option>
+        <option value="Card">Card</option>
+        <option value="Other">Other</option>
+      </select>
+      <label for="donor-message">Message (optional):</label>
+      <textarea id="donor-message" name="Message" rows="4"></textarea>
+      <button type="submit">Send Donation Enquiry</button>
+    </form>
+  </div>
+  </div>
+</section>
+
+<!-- Footer-->
+<footer role="contentinfo" >
+  <div class="container footer-inner">
+    <div>
+      <strong>Bright Foundation</strong>
+      <p>Lighting the path to brighter futures.</p>
+    </div>
+
+    <div>
+      <strong>Quick Links</strong>
+      <ul>
+        <li><a href="products_services.html">Resources</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <strong>Contact</strong>
+      <p>Email: <a href="mailto:info@brightfoundation.org.za">info@brightfoundation.org.za</a></p>
+       Phone: +27 (0)12 345 6789<br>
+    </div>
+
+    <!--newsletter-->
+    <div>
+      <strong>Sign up to our Newsletter</strong><br><br>
+      <form action="#" method="post">
+        <input id="name" type="text" required placeholder="Name"  />
+        <input id="email" type="email" required placeholder="Your email"  />
+        <button class="btn" type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer-center">
+    © <span id="year"></span> 2025 Bright Foundation. All rights reserved.
+  </div>
+</footer>
+</body>
+</html>
